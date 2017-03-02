@@ -47,21 +47,21 @@ Find the following on a per symbol basis:
 
 Output:
 The output file should be a comma separate file with this format:
-<symbol>,<MaxTimeGap>,<Volume>,<WeightedAveragePrice>,<MaxPrice>
+symbol, MaxTimeGap, Volume, WeightedAveragePrice, MaxPrice
 
 The output should be sorted by symbol ascending ('aaa' should be first).
 
-Sample Input:
-52924702314,aaa,13,1136
-52924702549,aac,20,477
-52925641407,aab,31,907
-52927350412,aab,29,724
-52927783980,aac,21,638
-52930489178,aaa,18,1222
-52931654404,aaa,9,1077
-52933453444,aab,9,756
+Sample Input:<br>
+52924702314,aaa,13,1136<br>
+52924702549,aac,20,477<br>
+52925641407,aab,31,907<br>
+52927350412,aab,29,724<br>
+52927783980,aac,21,638<br>
+52930489178,aaa,18,1222<br>
+52931654404,aaa,9,1077<br>
+52933453444,aab,9,756<br>
 
-Sample Output:
-aaa,5786864,40,1161,1222
-aab,6103032,69,810,907
-aac,3081431,41,559,638
+Sample Output:<br>
+aaa,5786864,40,1161,1222<br>
+aab,6103032,69,810,907<br>
+aac,3081431,41,559,638<br>
